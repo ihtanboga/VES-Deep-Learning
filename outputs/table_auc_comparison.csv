@@ -1,0 +1,7 @@
+"Model","AUC_Pre_Recalib","AUC_Post_Recalib","AUC_Difference"
+"Logistic Regression",0.9269,0.9269,0
+"Multi-Layer Perceptron",0.9459,0.9459,0
+"XGBoost",0.9871,0.9871,0
+"TabTransformer",0.9587,0.9587,0
+"TabNet",0.9579,0.9579,0
+"KAN",0.971,0.9684,-0.00259999999999994

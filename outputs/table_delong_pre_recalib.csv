@@ -1,0 +1,16 @@
+"Model_1","Model_2","AUC_1","AUC_2","AUC_Diff","DeLong_Z","P_Value"
+"Logistic Regression","Multi-Layer Perceptron",0.9269,0.9459,-0.019,-2.9294,0.003396
+"Logistic Regression","XGBoost",0.9269,0.9871,-0.0603,-4.246,2.2e-05
+"Logistic Regression","TabTransformer",0.9269,0.9587,-0.0318,-2.5566,0.010571
+"Logistic Regression","TabNet",0.9269,0.9579,-0.031,-1.9268,0.054007
+"Logistic Regression","KAN",0.9269,0.971,-0.0441,-2.9074,0.003644
+"Multi-Layer Perceptron","XGBoost",0.9459,0.9871,-0.0412,-3.5964,0.000323
+"Multi-Layer Perceptron","TabTransformer",0.9459,0.9587,-0.0128,-1.1926,0.233033
+"Multi-Layer Perceptron","TabNet",0.9459,0.9579,-0.012,-0.8548,0.392654
+"Multi-Layer Perceptron","KAN",0.9459,0.971,-0.0251,-2.1182,0.034159
+"XGBoost","TabTransformer",0.9871,0.9587,0.0284,2.509,0.012107
+"XGBoost","TabNet",0.9871,0.9579,0.0292,2.6439,0.008196
+"XGBoost","KAN",0.9871,0.971,0.0162,2.0873,0.036859
+"TabTransformer","TabNet",0.9587,0.9579,8e-04,0.075,0.940186
+"TabTransformer","KAN",0.9587,0.971,-0.0123,-1.0442,0.296411
+"TabNet","KAN",0.9579,0.971,-0.0131,-1.0059,0.314474
