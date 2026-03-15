@@ -39,13 +39,6 @@ VES-Deep-Learning/
 │   ├── tabnet_model.zip
 │   ├── scaler.pkl
 │   └── label_encoders.pkl
-├── outputs/                              # Prediction CSVs & metric tables
-│   ├── *_results.csv                     # Pre-recalibration predictions
-│   ├── *_recalibrated_results.csv        # Post-recalibration predictions
-│   ├── bootstrap_ci_*.csv                # Bootstrap 95% CIs
-│   ├── pvc_sensitivity_results.csv       # PVC burden sensitivity analysis
-│   └── sensitivity/
-│       └── pvc_sensitivity_metrics.csv
 ├── figures/                              # All publication figures
 │   ├── figure2_roc_pre_recalib.*         # ROC curves
 │   ├── figure3_calibration_pre_recalib.* # Calibration plots
@@ -55,12 +48,6 @@ VES-Deep-Learning/
 │   ├── figure7_dca_post_recalib.*
 │   ├── shap_*.png                        # SHAP summary plots
 │   └── supp_*.png                        # Supplementary figures
-├── gradio_app/                           # Web calculator source
-│   ├── app.py
-│   ├── requirements.txt
-│   └── model_weights/
-├── data/
-│   └── df_sample.csv                     # 10% sample dataset
 ├── requirements.txt
 └── .gitignore
 ```
@@ -82,17 +69,9 @@ pip install -r requirements.txt
 
 2. **Performance Metrics & Figures (R):**
    ```bash
-   cd VES-Deep-Learning
    Rscript r_scripts/analysis_revised.R
    ```
    Required R packages: `pROC`, `CalibrationCurves`, `ggplot2`, `dplyr`, `dcurves`, `gridExtra`, `viridis`, `boot`, `tidyr`
-
-3. **Local Gradio App:**
-   ```bash
-   cd gradio_app
-   pip install -r requirements.txt
-   python app.py
-   ```
 
 ## Methodology
 
