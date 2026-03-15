@@ -1,4 +1,0 @@
-"Model","AUROC_no_PVC","AUROC_with_PVC","AUC_Difference"
-"LR (no PVC burden)",0.854,0.9269,0.0729
-"XGBoost (no PVC burden)",0.9746,0.9871,0.0125
-"KAN (no PVC burden)",0.9482,0.971,0.0227999999999999

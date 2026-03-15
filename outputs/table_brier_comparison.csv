@@ -1,7 +1,0 @@
-"Model","Brier_Pre_Recalib","Brier_Post_Recalib","Brier_Improvement"
-"Logistic Regression",0.0904,0.0906,-0.000200000000000006
-"Multi-Layer Perceptron",0.077,0.0766,0.000399999999999998
-"XGBoost",0.0344,0.0349,-5e-04
-"TabTransformer",0.0551,0.0567,-0.0016
-"TabNet",0.0643,0.06,0.0043
-"KAN",0.0679,0.0543,0.0136
